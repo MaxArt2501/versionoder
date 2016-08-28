@@ -1,0 +1,27 @@
+@require "common/vars";
+
+body
+    margin: 0
+    background: $bg-color
+    color: $text-color
+    font-family: Roboto, Segoe UI, Arial, Helvetica Neue, Helvetica, Liberation Sans, sans-serif;
+
+.columns
+    display: flex
+
+    > .column
+        min-width: 0
+        flex: 1 0 auto
+
+.version-list
+    table
+        border-collapse: collapse
+    td
+        padding: .2em
+        text-align: center
+
+    &__tag
+        background: yellow;
+        color: $bg-color;
+        border-radius: 3px
+        padding: .1em .3em

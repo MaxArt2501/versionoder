@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background: #000080;
+  color: #fff;
+  font-family: Roboto, Segoe UI, Arial, Helvetica Neue, Helvetica, Liberation Sans, sans-serif;
+}
+.columns {
+  display: flex;
+}
+.columns > .column {
+  min-width: 0;
+  flex: 1 0 auto;
+}
+.version-list table {
+  border-collapse: collapse;
+}
+.version-list td {
+  padding: 0.2em;
+  text-align: center;
+}
+.version-list__tag {
+  background: #ff0;
+  color: #000080;
+  border-radius: 3px;
+  padding: 0.1em 0.3em;
+}
